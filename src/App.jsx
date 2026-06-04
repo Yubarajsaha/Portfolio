@@ -1,13 +1,12 @@
-import { useEffect, useRef } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import About from './components/About'
-import Experience from './components/Experience'
-import Education from './components/Education'
-import Projects from './components/Projects'
-import Resume from './components/Resume'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import About from './components/about'
+import Experience from './components/experience'
+import Education from './components/education'
+import Projects from './components/projects'
+import Resume from './components/resume'
+import Contact from './components/contact'
+import Footer from './components/footer'
 
 function ParallaxBackground() {
   const ref = useRef(null)
