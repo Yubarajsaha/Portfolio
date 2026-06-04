@@ -58,10 +58,6 @@ function Resume() {
           <HiDownload />
           Download Resume
         </motion.a>
-
-        <p className="text-[#444] text-xs mt-5">
-          PDF • Will be available soon
-        </p>
       </motion.div>
 
     </section>
