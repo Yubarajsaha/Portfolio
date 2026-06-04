@@ -17,13 +17,11 @@ const education = [
     degree: '10+2TH',
     school: 'Falakata High School(H.S)',
     year: '2021 — 2023',
-    grade:'83.2%',
   },
   {
     degree: '10TH',
     school: 'Falakata High School(H.S)',
     year: '2020 — 2021',
-    grade:'74.6%',
   },
 ]
 

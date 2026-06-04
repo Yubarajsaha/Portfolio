@@ -6,11 +6,13 @@ function About() {
     'React',
     'Python',
     'HTML & CSS',
+    'Tailwindcss',
     'DSA',
     'Git & GitHub',
     'SQL',
     'VS CODE',
-    'Intelij idea'
+    'Intelij idea',
+    'Office suits',
   ]
 
   return (

@@ -18,7 +18,7 @@ function Hero() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
       >
-        Y
+        Y.S
       </motion.div>
 
       <motion.p

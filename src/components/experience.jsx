@@ -6,9 +6,12 @@ const experiences = [
     company: 'PaperBill',
     year: 'Dec 2025 — Mar 2026',
     type: 'Internship',
+  
     points: [
-      'HTML5, CSS, Tailwindcss, Git, SEO,.',
-      'MY one of responsibility was incrising the online presesence, Customer interraction gaining, develelop GST billig pages, built User friendly ui.'
+      'Digital Presence Optimization', 
+      'Customer Engagement Solutions', 
+      'Develelop GST billig pages', 
+      'User-Centric UI Design',
     ]
   }
 ]
