@@ -45,7 +45,7 @@ function Resume() {
         </p>
 
         <motion.a
-          href="/Yubaraj Saha-Resume .pdf"
+          href="/Resume .pdf"
           download
           className="inline-flex items-center gap-2 px-8 py-3 rounded-lg font-semibold text-white transition-all duration-300"
           style={{
