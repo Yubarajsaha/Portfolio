@@ -45,7 +45,7 @@ function Resume() {
         </p>
 
         <motion.a
-          href="https://1drv.ms/w/c/0f419fbaaa467521/IQB1mTDSiDK9RI58-jrYHzKVAcRfpkXqUf5RZtD1WzZbjbs?e=kVBAie"
+          href="/Yubaraj Saha-Resume .pdf"
           download
           className="inline-flex items-center gap-2 px-8 py-3 rounded-lg font-semibold text-white transition-all duration-300"
           style={{
