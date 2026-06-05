@@ -27,11 +27,11 @@ function ProjectCard({ title, description, link, index }) {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.15 }}
       viewport={{ once: true }}
-      whileHover={{ borderColor: '#7c6af7', y: -4 }}
+      whileHover={{ borderColor: 'rgba(255,100,20,1)', y: -4 }}
     >
       <h3 className="text-white font-semibold text-lg mb-2">{title}</h3>
       <p className="text-[#888] text-sm mb-4 leading-relaxed">{description}</p>
-      <a href={link} className="text-[#fa930d] text-sm font-semibold hover:underline">
+      <a href={link} className="text-[#f77008] text-sm font-semibold hover:underline">
         View Project →
       </a>
     </motion.div>
@@ -51,7 +51,7 @@ function Projects() {
       >
         Projects
       </motion.h2>
-      <div className="w-12 h-[3px] bg-[#f7871e] rounded mb-10" />
+      <div className="w-12 h-[3px] bg-[#f57c0c] rounded mb-10" />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (
