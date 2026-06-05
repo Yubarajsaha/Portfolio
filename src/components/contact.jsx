@@ -25,7 +25,7 @@ const socials = [
     color: '#5865F2'
   },
   {
-    name: 'X (Twitter)',
+    name: 'X',
     icon: FaXTwitter,
     href: 'https://x.com/SahaYubara59519',
     label: '@yubarajsaha',
