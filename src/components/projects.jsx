@@ -3,9 +3,9 @@ import { motion } from 'framer-motion'
 
 const projects = [
   {
-    title: 'Coming soon...',
-    description: 'Ongoing..',
-    link: '#'
+    title: 'Intelligent Candidate Ranking System',
+    description: 'Built an intelligent candidate ranking system using semantic matching and data-driven scoring.',
+    link: 'https://github.com/Yubarajsaha/redrob'
   },
   {
     title: 'Coming soon...',
