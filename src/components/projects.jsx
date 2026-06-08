@@ -1,17 +1,21 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { FiFolder, FiDatabase,FiCode,FiGithub, } from 'react-icons/fi'
+import { FiFolder, FiDatabase,FiCode,FiGithub,FiCpu } from 'react-icons/fi'
 
 const projects = [
   {
-    title: 'coming soon...',
-    description: 'ongoing...',
-    icon: FiGithub,
+    title:'RecruitIQ — AI Candidate Ranking System',
+    description:'Built for Redrob Data & AI Hackathon 2026. AI pipeline ranking 100,000 candidates to Top 100 in 5.8 seconds.',
+    icon: FiCpu,
     features: [
+      'Ranked 100K+ candidate profiles using semantic matching and scoring techniques.',
+      'Designed a multi-stage evaluation pipeline for efficient candidate screening.',
+      'Optimized performance through precomputed embeddings and data processing workflows.',
+      'Built a Streamlit dashboard for ranking visualization and insights.',
 
     ],
-    tech: ['#'],
-    link: '#'
+    tech: ['Python', 'Pandas', 'Scikit-learn', 'Sentence Transformers', 'Streamlit',],
+    link: 'https://github.com/Yubarajsaha/redrob'
   },
   {
     title: 'Coming soon...',
@@ -40,8 +44,11 @@ function ProjectCard({ project, index }) {
   const Icon = project.icon
 
   return (
-    <motion.div
-      className="glass rounded-xl p-6 transition-all duration-300"
+    <motion.a
+      href={project.link}
+      target={project.link !== '#' ? '_blank' : '_self'}
+      rel="noopener noreferrer"
+      className="block glass rounded-xl p-6 transition-all duration-300 cursor-pointer"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.15 }}
@@ -73,7 +80,7 @@ function ProjectCard({ project, index }) {
       <div className="mb-5 space-y-2">
         {project.features.map((feature, i) => (
           <p key={i} className="text-[#555] text-sm">
-            <span style={{ color: '#ff6414' }}>// </span>
+            <span style={{ color: '#ff6414',fontSize:'40px' }}>. </span>
             {feature}
           </p>
         ))}
@@ -95,7 +102,7 @@ function ProjectCard({ project, index }) {
           </span>
         ))}
       </div>
-    </motion.div>
+    </motion.a>
   )
 }
 

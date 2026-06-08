@@ -12,7 +12,7 @@ function About() {
     'SQL',
     'VS CODE',
     'Intelij idea',
-    'Office suits',
+    'MS Office',
   ]
 
   return (
