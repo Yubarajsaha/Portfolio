@@ -6,19 +6,20 @@ const experiences = [
     company: 'PaperBill',
     year: 'Dec 2025 — Mar 2026',
     type: 'Internship',
-  
+    Skills:['Html', 'CSS', 'Tailwind CSS', 'Git & Github', 'Seo'],
     points: [
       'Digital Presence Optimization', 
       'Customer Engagement Solutions', 
       'Develelop GST billig pages', 
       'User-Centric UI Design',
-    ]
+    ],
+    
   }
 ]
 
 function Experience() {
   return (
-    <section id="experience" className="px-[8%] py-24 max-w-[1100px] mx-auto">
+    <section id="experience" className="px-[8%] py-24 max-w-[1300px] mx-auto">
 
       <motion.h2
         className="text-4xl font-bold text-white mb-2"
@@ -66,11 +67,10 @@ function Experience() {
                 </span>
               </div>
 
-              <div className="flex justify-between items-center mb-4">
+              <div className="flex justify-between items-center mb-3">
                 <p className="text-[#aaa] text-sm font-medium">{item.company}</p>
                 <p className="text-[#555] text-xs">{item.year}</p>
               </div>
-
               <ul className="flex flex-col gap-2">
                 {item.points.map((point, i) => (
                   <li key={i} className="flex items-start gap-2 text-[#777] text-sm leading-relaxed">

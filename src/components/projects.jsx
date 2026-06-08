@@ -8,10 +8,10 @@ const projects = [
     description:'Built for Redrob Data & AI Hackathon 2026. AI pipeline ranking 100,000 candidates to Top 100 in 5.8 seconds.',
     icon: FiCpu,
     features: [
-      'Ranked 100K+ candidate profiles using semantic matching and scoring techniques.',
-      'Designed a multi-stage evaluation pipeline for efficient candidate screening.',
-      'Optimized performance through precomputed embeddings and data processing workflows.',
-      'Built a Streamlit dashboard for ranking visualization and insights.',
+                "100K+ profile ranking",
+                "AI-powered semantic matching",
+                "Fast embedding-based scoring",
+                "Interactive analytics dashboard"
 
     ],
     tech: ['Python', 'Pandas', 'Scikit-learn', 'Sentence Transformers', 'Streamlit',],
@@ -48,7 +48,7 @@ function ProjectCard({ project, index }) {
       href={project.link}
       target={project.link !== '#' ? '_blank' : '_self'}
       rel="noopener noreferrer"
-      className="block glass rounded-xl p-6 transition-all duration-300 cursor-pointer"
+      className="block glass rounded-xl p-8 transition-all duration-300 cursor-pointer"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.15 }}
@@ -72,14 +72,14 @@ function ProjectCard({ project, index }) {
       </div>
 
       {/* Description */}
-      <p className="text-[#666] text-sm mb-4 leading-relaxed">
+      <p className="text-[#666] text-sm mb-5 leading-relaxed">
         {project.description}
       </p>
 
       {/* Features list */}
       <div className="mb-5 space-y-2">
         {project.features.map((feature, i) => (
-          <p key={i} className="text-[#555] text-sm">
+          <p key={i} className="text-[#555] text-base">
             <span style={{ color: '#ff6414',fontSize:'40px' }}>. </span>
             {feature}
           </p>
@@ -108,7 +108,7 @@ function ProjectCard({ project, index }) {
 
 function Projects() {
   return (
-    <section id="projects" className="px-[8%] py-24 max-w-[1100px] mx-auto">
+    <section id="projects" className="px-[8%] py-24 max-w-[1800px] mx-auto">
 
       <motion.div
         className="flex items-center gap-3 mb-2"
@@ -130,7 +130,7 @@ function Projects() {
       </motion.div>
       <div className="w-12 h-[3px] rounded mb-10" style={{ background: '#ff6414' }} />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {projects.map((project, index) => (
           <ProjectCard key={project.title} project={project} index={index} />
         ))}

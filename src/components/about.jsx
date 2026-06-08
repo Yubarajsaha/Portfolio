@@ -16,7 +16,7 @@ function About() {
   ]
 
   return (
-    <section id="about" className="px-[8%] py-24 max-w-[1100px] mx-auto">
+    <section id="about" className="px-[8%] py-24 max-w-[1300px] mx-auto">
 
       <motion.h2
         className="text-4xl font-bold text-white mb-2"

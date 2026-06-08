@@ -3,7 +3,7 @@ import { HiDownload } from 'react-icons/hi'
 
 function Resume() {
   return (
-    <section id="resume" className="px-[8%] py-24 max-w-[1100px] mx-auto">
+    <section id="resume" className="px-[8%] py-24 max-w-[1400px] mx-auto">
 
       <motion.h2
         className="text-4xl font-bold text-white mb-2"
