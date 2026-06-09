@@ -35,7 +35,7 @@ function Navbar() {
           <li key={link}>
             <button
               onClick={() => scrollTo(link)}
-              className="bg-transparent border-none text-[#888] text-sm cursor-pointer capitalize transition-all duration-300 hover:text-[#ff6414]"
+              className="bg-transparent border-none text-[#f7f7f7] text-sm cursor-pointer capitalize transition-all duration-300 hover:text-[#ff6414]"
             >
               {link.replace('#', '')}
             </button>
@@ -72,7 +72,7 @@ function Navbar() {
             <li key={link}>
               <button
                 onClick={() => scrollTo(link)}
-                className="bg-transparent border-none text-[#888] text-base cursor-pointer capitalize hover:text-[#ff6414] transition-colors duration-300"
+                className="bg-transparent border-none text-[#f5f4f4f0] text-base cursor-pointer capitalize hover:text-[#ff6414] transition-colors duration-300"
               >
                 {link.replace('#', '')}
               </button>
