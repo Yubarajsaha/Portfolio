@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-
+import { FiUser } from 'react-icons/fi'
 function About() {
   const skills = [
     'Java',
@@ -18,15 +18,25 @@ function About() {
   return (
     <section id="about" className="px-[8%] py-24 max-w-[1300px] mx-auto">
 
-      <motion.h2
-        className="text-4xl font-bold text-white mb-2"
-        initial={{ opacity: 0, x: -30 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.5 }}
-        viewport={{ once: true }}
-      >
-        About Me
-      </motion.h2>
+  <motion.div
+  className="flex items-center gap-3 mb-2"
+  initial={{ opacity: 0, x: -30 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.5 }}
+  viewport={{ once: true }}
+  >
+    <div
+    className="w-10 h-10 rounded-lg flex items-center justify-center"
+    style={{
+      background: 'rgba(255,100,20,0.15)',
+      border: '1px solid rgba(255,100,20,0.3)'
+    }}
+    >
+    <FiUser className="text-xl" style={{ color: '#ff6414' }} />
+    </div>
+    <h2 className="text-4xl font-bold text-white">About</h2>
+  </motion.div>
+
       <div className="w-12 h-[3px] bg-[#dd5e0a] rounded mb-10" />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
