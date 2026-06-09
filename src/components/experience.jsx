@@ -13,7 +13,7 @@ const experiences = [
       'Develelop GST billig pages', 
       'User-Centric UI Design',
     ],
-    Skills:['HTML','Css',]
+    Skills:['Html & CSS', 'Tailwind CSS', 'Git & Github', 'SEO',]
   }
 ]
 
