@@ -13,7 +13,7 @@ const experiences = [
       'Develelop GST billig pages', 
       'User-Centric UI Design',
     ],
-    
+    Skills:['HTML','Css',]
   }
 ]
 
@@ -79,6 +79,22 @@ function Experience() {
                   </li>
                 ))}
               </ul>
+              {/* Skills Tags */}
+              <div className="flex flex-wrap gap-2 mt-5 pt-4 border-t border-[#ff6414]/10">
+              {item.Skills.map((skill, i) => (
+              <span
+              key={i}
+              className="px-3 py-1 rounded text-xs font-medium border"
+              style={{
+              background: 'rgba(255,100,20,0.1)',
+              borderColor: 'rgba(255,100,20,0.3)',
+              color: '#ff6414'
+              }}
+              >
+            {skill}
+            </span>
+            ))}
+            </div>
             </motion.div>
           </motion.div>
         ))}
