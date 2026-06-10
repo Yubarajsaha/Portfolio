@@ -88,7 +88,7 @@ function Hero() {
         {tags.map((tag, i) => (
           <span
             key={tag}
-            className="text-xs text-[#555] font-mono tracking-wide"
+            className="text-xs text-[#f85903] font-mono tracking-wide"
           >
             {tag}
           </span>
