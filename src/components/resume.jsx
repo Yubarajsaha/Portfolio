@@ -1,19 +1,29 @@
 import { motion } from 'framer-motion'
 import { HiDownload } from 'react-icons/hi'
+import { FiFileText } from 'react-icons/fi'
 
 function Resume() {
   return (
     <section id="resume" className="px-[8%] py-24 max-w-[1400px] mx-auto">
 
-      <motion.h2
-        className="text-4xl font-bold text-white mb-2"
-        initial={{ opacity: 0, x: -30 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.5 }}
-        viewport={{ once: true }}
-      >
-        Resume
-      </motion.h2>
+    <motion.div
+      className="flex items-center gap-3 mb-2"
+      initial={{ opacity: 0, x: -30 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.5 }}
+      viewport={{ once: true }}
+    >
+    <div
+      className="w-10 h-10 rounded-lg flex items-center justify-center"
+      style={{
+      background: 'rgba(255,100,20,0.15)',
+      border: '1px solid rgba(255,100,20,0.3)'
+      }}
+    >
+      <FiFileText className="text-xl" style={{ color: '#ff6414' }} />
+      </div>
+      <h2 className="text-4xl font-bold text-white">Resume</h2>
+    </motion.div>
       <div className="w-12 h-[3px] rounded mb-10" style={{ background: '#ff6414' }} />
 
       <motion.div
