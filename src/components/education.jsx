@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { FiBook } from 'react-icons/fi'
 
 const education = [
   {
@@ -13,31 +14,30 @@ const education = [
     year: '2023 — 2026',
     description: 'Completed BCA with strong foundation in programming and computer science fundamentals.'
   },
-  {
-    degree: '10+2TH',
-    school: 'Falakata High School(H.S)',
-    year: '2021 — 2023',
-  },
-  {
-    degree: '10TH',
-    school: 'Falakata High School(H.S)',
-    year: '2020 — 2021',
-  },
 ]
 
 function Education() {
   return (
     <section id="education" className="px-[8%] py-24 max-w-[1300px] mx-auto">
 
-      <motion.h2
-        className="text-4xl font-bold text-white mb-2"
+      <motion.div
+        className="flex items-center gap-3 mb-2"
         initial={{ opacity: 0, x: -30 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
-      >
-        Education
-      </motion.h2>
+        >
+        <div
+          className="w-10 h-10 rounded-lg flex items-center justify-center"
+          style={{
+          background: 'rgba(255,100,20,0.15)',
+          border: '1px solid rgba(255,100,20,0.3)'
+          }}
+        >
+          <FiBook className="text-xl" style={{ color: '#ff6414' }} />
+        </div>
+        <h2 className="text-4xl font-bold text-white">Education</h2>
+      </motion.div>
       <div className="w-12 h-[3px] rounded mb-10" style={{ background: '#ff6414' }} />
 
       <div className="flex flex-col gap-6">
