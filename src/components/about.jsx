@@ -7,7 +7,7 @@ function About() {
     'Python',
     'HTML & CSS',
     'Tailwindcss',
-    'DSA',
+    'Data Structures & Algoritham',
     'Git & GitHub',
     'SQL',
     'VS CODE',
