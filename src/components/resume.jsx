@@ -16,6 +16,7 @@ function Resume() {
     <div
       className="w-10 h-10 rounded-lg flex items-center justify-center"
       style={{
+        
       background: 'rgba(255,100,20,0.15)',
       border: '1px solid rgba(255,100,20,0.3)'
       }}
