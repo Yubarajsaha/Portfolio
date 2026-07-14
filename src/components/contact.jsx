@@ -85,7 +85,6 @@ function Contact() {
             </div>
             <div>
               <p className="text-white font-semibold text-sm">{social.name}</p>
-              <p className="text-[#555] text-xs mt-0.5">{social.label}</p>
             </div>
           </motion.a>
         ))}
