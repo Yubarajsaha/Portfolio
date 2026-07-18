@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { FiFolder, FiDatabase,FiCode,FiGithub,FiCpu } from 'react-icons/fi'
+import { FiFolder, FiDatabase,FiCode,FiGithub,FiCpu,BsSafe2Fill } from 'react-icons/fi'
 
 const projects = [
   {
@@ -18,14 +18,18 @@ const projects = [
     link: 'https://github.com/Yubarajsaha/redrob'
   },
   {
-    title: 'Coming soon...',
-    description: 'Ongoing...',
-    icon: FiCode,
+    title: 'My Vault - Your Own Private Locker',
+    description: 'A privacy-first digital vault that securely stores personal data using encrypted local storage with complete user ownership and no cloud dependency.',
+    icon: BsSafe2Fill,
     features: [
+                "local-first architecture",
+                "encrypted storage",
+                "clean, user-centric interface",
+                "Free to use with no subscriptions or hidden costs."
 
     ],
-    tech: [''],
-    link: '#'
+    tech: ['JavaScript','React','vite','Tailwind CSS','Crypto API'],
+    link: 'http://yubarajsaha.github.io/my-vault-react/'
   },
   {
     title: 'Coming Soon...',
