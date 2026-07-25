@@ -5,8 +5,7 @@ import About from './components/about'
 import Experience from './components/experience'
 import Education from './components/education'
 import Projects from './components/projects'
-import Resume from './components/resumesection'
-import Resume from './components/Resume';
+import Resume from './components/resume'
 import Contact from './components/contact'
 import Footer from './components/footer'
 
