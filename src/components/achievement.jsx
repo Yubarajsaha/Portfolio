@@ -1,0 +1,103 @@
+import { motion } from 'framer-motion'
+import { FiAward } from 'react-icons/fi'
+
+const achievements = [
+  {
+    event: 'Redrob Data & AI Challenge 2026',
+    position: 'Submitted',
+    description: 'Built AI powered candidate matching software — RecruitIQ',
+    date: 'May 2026',
+    status: 'Results Pending'
+  }
+]
+
+function Achievement() {
+  return (
+    <section id="achievement" className="px-[8%] py-24 max-w-[1100px] mx-auto">
+
+      <motion.div
+        className="flex items-center gap-3 mb-2"
+        initial={{ opacity: 0, x: -30 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
+      >
+        <div
+          className="w-10 h-10 rounded-lg flex items-center justify-center"
+          style={{
+            background: 'rgba(255,100,20,0.15)',
+            border: '1px solid rgba(255,100,20,0.3)'
+          }}
+        >
+          <FiAward className="text-xl" style={{ color: '#ff6414' }} />
+        </div>
+        <h2 className="text-4xl font-bold text-white">Achievements</h2>
+      </motion.div>
+      <div className="w-12 h-[3px] rounded mb-10" style={{ background: '#ff6414' }} />
+
+      <div className="flex flex-col gap-6">
+        {achievements.map((item, index) => (
+          <motion.div
+            key={index}
+            className="relative pl-8"
+            style={{ borderLeft: '2px solid rgba(255,100,20,0.2)' }}
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: index * 0.15 }}
+            viewport={{ once: true }}
+          >
+            <div
+              className="absolute left-[-9px] top-1 w-4 h-4 rounded-full border-4 border-[#080808]"
+              style={{ background: '#ff6414', boxShadow: '0 0 10px rgba(255,100,20,0.6)' }}
+            />
+            <motion.div
+              className="glass rounded-xl p-6 transition-all duration-300"
+              whileHover={{ borderColor: 'rgba(255,100,20,0.4)', y: -2 }}
+            >
+              <div className="flex items-start gap-3 mb-4">
+                <div
+                  className="w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0"
+                  style={{
+                    background: 'rgba(255,100,20,0.15)',
+                    border: '1px solid rgba(255,100,20,0.3)'
+                  }}
+                >
+                  <FiAward className="text-lg" style={{ color: '#ff6414' }} />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-white font-semibold text-lg">{item.event}</h3>
+                  <p className="text-[#aaa] text-sm">{item.description}</p>
+                </div>
+              </div>
+              <div className="flex flex-wrap gap-4 items-center">
+                <div>
+                  <p className="text-[#666] text-xs uppercase tracking-wide mb-1">Position</p>
+                  <p className="text-white font-semibold">{item.position}</p>
+                </div>
+                <div>
+                  <p className="text-[#666] text-xs uppercase tracking-wide mb-1">Date</p>
+                  <p className="text-white font-semibold">{item.date}</p>
+                </div>
+                <div>
+                  <p className="text-[#666] text-xs uppercase tracking-wide mb-1">Status</p>
+                  <span
+                    className="inline-block px-3 py-1 rounded-full text-xs font-semibold"
+                    style={{
+                      background: 'rgba(255,100,20,0.15)',
+                      color: '#ff6414'
+                    }}
+                  >
+                    {item.status}
+                  </span>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        ))}
+      </div>
+
+    </section>
+  )
+}
+
+export default Achievement

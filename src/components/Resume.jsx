@@ -1,30 +1,29 @@
 import { motion } from 'framer-motion'
 import { HiDownload } from 'react-icons/hi'
-import { FiFileText } from 'react-icons/fi'
+import { FiFileText, FiEye } from 'react-icons/fi'
 
 function Resume() {
   return (
     <section id="resume" className="px-[8%] py-24 max-w-[1400px] mx-auto">
 
-    <motion.div
-      className="flex items-center gap-3 mb-2"
-      initial={{ opacity: 0, x: -30 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.5 }}
-      viewport={{ once: true }}
-    >
-    <div
-      className="w-10 h-10 rounded-lg flex items-center justify-center"
-      style={{
-        
-      background: 'rgba(255,100,20,0.15)',
-      border: '1px solid rgba(255,100,20,0.3)'
-      }}
-    >
-      <FiFileText className="text-xl" style={{ color: '#ff6414' }} />
-      </div>
-      <h2 className="text-4xl font-bold text-white">Resume</h2>
-    </motion.div>
+      <motion.div
+        className="flex items-center gap-3 mb-2"
+        initial={{ opacity: 0, x: -30 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
+      >
+        <div
+          className="w-10 h-10 rounded-lg flex items-center justify-center"
+          style={{
+            background: 'rgba(255,100,20,0.15)',
+            border: '1px solid rgba(255,100,20,0.3)'
+          }}
+        >
+          <FiFileText className="text-xl" style={{ color: '#ff6414' }} />
+        </div>
+        <h2 className="text-4xl font-bold text-white">Resume</h2>
+      </motion.div>
       <div className="w-12 h-[3px] rounded mb-10" style={{ background: '#ff6414' }} />
 
       <motion.div
@@ -55,20 +54,42 @@ function Resume() {
           Updated regularly.
         </p>
 
-        <motion.a
-          href="/Resume-Yubaraj_Saha.pdf"
-          download
-          className="inline-flex items-center gap-2 px-8 py-3 rounded-lg font-semibold text-white transition-all duration-300"
-          style={{
-            background: 'linear-gradient(135deg, #ff6414, #ff8c42)',
-            boxShadow: '0 0 25px rgba(255,100,20,0.35)'
-          }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          <HiDownload />
-          Download Resume
-        </motion.a>
+        {/* Buttons row */}
+        <div className="flex flex-wrap justify-center gap-4">
+
+          {/* Download PDF button */}
+          <motion.a
+            href="/Resume-Yubaraj_Saha.pdf"
+            download
+            className="inline-flex items-center gap-2 px-8 py-3 rounded-lg font-semibold text-white transition-all duration-300"
+            style={{
+              background: 'linear-gradient(135deg, #ff6414, #ff8c42)',
+              boxShadow: '0 0 25px rgba(255,100,20,0.35)'
+            }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <HiDownload />
+            Download Resume
+          </motion.a>
+
+          {/* View Online button */}
+          <motion.a
+            href="/resume-preview"
+            className="inline-flex items-center gap-2 px-8 py-3 rounded-lg font-semibold text-white transition-all duration-300 glass"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <FiEye />
+            View Online
+          </motion.a>
+
+        </div>
+
+        <p className="text-[#444] text-xs mt-5">
+          PDF available for download · Online version always up to date
+        </p>
+
       </motion.div>
 
     </section>

@@ -1,13 +1,16 @@
 import { useEffect, useRef } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/about'
 import Experience from './components/experience'
 import Education from './components/education'
+import Achievement from './components/achievement'
 import Projects from './components/projects'
 import Resume from './components/resume'
 import Contact from './components/contact'
 import Footer from './components/footer'
+import ResumeLayout from './components/ResumeLayout'
 
 function ParallaxBackground() {
   const ref = useRef(null)
@@ -140,20 +143,28 @@ function ParallaxBackground() {
 
 function App() {
   return (
-    <div className="relative min-h-screen">
-      <ParallaxBackground />
-      <div style={{ position: 'relative', zIndex: 1 }}>
-        <Navbar />
-        <Hero />
-        <About />
-        <Experience />
-        <Education />
-        <Projects />
-        <Resume />
-        <Contact />
-        <Footer />
-      </div>
-    </div>
+     <BrowserRouter>
+      <Routes>
+        <Route path="/" element={
+          <div className="relative min-h-screen">
+            <ParallaxBackground />
+            <div style={{ position: 'relative', zIndex: 1 }}>
+              <Navbar />
+              <Hero />
+              <About />
+              <Experience />
+              <Education />
+              <Achievement />
+              <Projects />
+              <Resume />
+              <Contact />
+              <Footer />
+            </div>
+          </div>
+        } />
+        <Route path="/resume-preview" element={<ResumeLayout />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
