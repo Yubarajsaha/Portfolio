@@ -56,11 +56,11 @@ function ResumeLayout() {
           <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', fontSize: '12px' }}>
             <a href="mailto:yubaraj459@gmail.com" style={{ color: '#ff6414' }}>yubaraj459@gmail.com</a>
             <span>·</span>
-            <a href="https://linkedin.com/in/yubarajsaha" target="_blank" style={{ color: '#ff6414' }}>LinkedIn</a>
+            <a href="https://www.linkedin.com/in/yubaraj-saha-488883285/" target="_blank" style={{ color: '#ff6414' }}>LinkedIn</a>
             <span>·</span>
             <a href="https://github.com/Yubarajsaha" target="_blank" style={{ color: '#ff6414' }}>GitHub</a>
             <span>·</span>
-            <a href="https://yubaraj-portfolio.vercel.app" target="_blank" style={{ color: '#ff6414' }}>Portfolio</a>
+            <a href="https://yubaraj-portfolio.vercel.app/" target="_blank" style={{ color: '#ff6414' }}>Portfolio</a>
           </div>
         </div>
 
@@ -85,14 +85,15 @@ function ResumeLayout() {
           </h2>
           <div style={{ marginBottom: '12px' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-              <strong>Your Job Title</strong>
+              <strong>Web Designer Intern</strong>
               <span style={{ color: '#555' }}>Jan 2024 — Present</span>
             </div>
-            <div style={{ color: '#555', fontSize: '12px', marginBottom: '4px' }}>Company Name · City, India</div>
+            <div style={{ color: '#555', fontSize: '12px', marginBottom: '4px' }}>PaperBill · City, India</div>
             <ul style={{ margin: '4px 0', paddingLeft: '16px' }}>
-              <li>Describe what you worked on and what technologies you used.</li>
-              <li>Mention any achievement or impact you had.</li>
-              <li>Add one more responsibility or skill you learned.</li>
+              <li>Digital Presence Optimization.</li>
+              <li>Customer Engagement Solutions.</li>
+              <li>Develelop GST billig pages.</li>
+              <li>User-Centric UI Design.</li>
             </ul>
           </div>
         </div>
@@ -124,19 +125,19 @@ function ResumeLayout() {
             Skills
           </h2>
           <p style={{ margin: '2px 0' }}>
-            <strong>Languages:</strong> Java, Python, JavaScript, SQL, HTML & CSS
+            <strong>Languages:</strong> Java, Python, SQL, HTML & CSS
           </p>
           <p style={{ margin: '2px 0' }}>
-            <strong>Technologies:</strong> React, Spring Boot, Tailwind CSS, Framer Motion, Streamlit
+            <strong>Technologies:</strong> React, Tailwind CSS, Framer Motion, Streamlit
           </p>
           <p style={{ margin: '2px 0' }}>
-            <strong>Tools:</strong> Git, GitHub, VS Code, IntelliJ IDEA, Google Colab, Docker
+            <strong>Tools:</strong> Git, GitHub, VS Code, MS office 
           </p>
           <p style={{ margin: '2px 0' }}>
-            <strong>AI/ML:</strong> sentence-transformers, pandas, scikit-learn, LLM APIs
+            <strong>Tools:</strong> Claude, Cursor
           </p>
           <p style={{ margin: '2px 0' }}>
-            <strong>Soft Skills:</strong> Problem Solving, Clean Code, Teamwork, Continuous Learning
+            <strong>Soft Skills:</strong> Problem Solving, Clean Code, Teamwork, Continuous Learning, Time Management
           </p>
         </div>
 
