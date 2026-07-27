@@ -3,13 +3,22 @@ import { useRef } from 'react'
 function ResumeLayout() {
   const resumeRef = useRef(null)
 
-  const handlePrint = () => {
-    window.print()
+  const handleDownload = async () => {
+    const html2pdf = (await import('html2pdf.js')).default
+    const element = document.getElementById('resume-print')
+    const opt = {
+      margin: 10,
+      filename: 'Yubaraj_Saha_Resume.pdf',
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2, useCORS: true },
+      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+      enableLinks: true  // ← this makes links clickable in PDF!
+    }
+    html2pdf().set(opt).from(element).save()
   }
 
   return (
     <>
-      {/* Print styles */}
       <style>{`
         @media print {
           body * { visibility: hidden; }
@@ -19,10 +28,10 @@ function ResumeLayout() {
         }
       `}</style>
 
-      {/* Print button */}
+      {/* Download button */}
       <div className="no-print flex justify-center my-4">
         <button
-          onClick={handlePrint}
+          onClick={handleDownload}
           className="px-6 py-2 rounded-lg font-semibold text-white"
           style={{ background: 'linear-gradient(135deg, #ff6414, #ff8c42)' }}
         >
