@@ -54,13 +54,13 @@ function ResumeLayout() {
             Software Engineer
           </p>
           <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', fontSize: '12px' }}>
-            <a href="mailto:yubaraj459@gmail.com" style={{ color: '#ff6414' }}>yubaraj459@gmail.com</a>
+            <a href="mailto:yubarajsaha025@gmail.com" style={{ color: '#000000' }}>yubarajsaha025@gmail.com</a>
             <span>·</span>
-            <a href="https://www.linkedin.com/in/yubaraj-saha-488883285/" target="_blank" style={{ color: '#ff6414' }}>LinkedIn</a>
+            <a href="https://www.linkedin.com/in/yubaraj-saha-488883285/" target="_blank" style={{ color: '#000000' }}>LinkedIn</a>
             <span>·</span>
-            <a href="https://github.com/Yubarajsaha" target="_blank" style={{ color: '#ff6414' }}>GitHub</a>
+            <a href="https://github.com/Yubarajsaha" target="_blank" style={{ color: '#000000' }}>GitHub</a>
             <span>·</span>
-            <a href="https://yubaraj-portfolio.vercel.app/" target="_blank" style={{ color: '#ff6414' }}>Portfolio</a>
+            <a href="https://yubaraj-portfolio.vercel.app/" target="_blank" style={{ color: '#000000' }}>Portfolio</a>
           </div>
         </div>
 
@@ -86,10 +86,10 @@ function ResumeLayout() {
           <div style={{ marginBottom: '12px' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
               <strong>Web Designer Intern</strong>
-              <span style={{ color: '#555' }}>Jan 2024 — Present</span>
+              <span style={{ color: '#555' }}>Dec 2025 — Feb 2026</span>
             </div>
-            <div style={{ color: '#555', fontSize: '12px', marginBottom: '4px' }}>PaperBill · City, India</div>
-            <ul style={{ margin: '4px 0', paddingLeft: '16px' }}>
+            <div style={{ color: '#555', fontSize: '12px', marginBottom: '4px' }}>PaperBill, India</div>
+            <ul style={{ margin: '4px 0', paddingLeft: '16px',listStyleType: 'disc', }}>
               <li>Digital Presence Optimization.</li>
               <li>Customer Engagement Solutions.</li>
               <li>Develelop GST billig pages.</li>
@@ -115,7 +115,7 @@ function ResumeLayout() {
               <strong>Bachelor of Computer Applications (BCA)</strong>
               <span style={{ color: '#555' }}>Jul 2023 — Jun 2026</span>
             </div>
-            <div style={{ color: '#555', fontSize: '12px' }}>Institute of engineering and management</div>
+            <div style={{ color: '#555', fontSize: '12px' }}>Institute of engineering and management | 8.15 CGPA</div>
           </div>
         </div>
 
@@ -134,7 +134,7 @@ function ResumeLayout() {
             <strong>Tools:</strong> Git, GitHub, VS Code, MS office 
           </p>
           <p style={{ margin: '2px 0' }}>
-            <strong>Tools:</strong> Claude, Cursor
+            <strong>AI Tools:</strong> Claude, Cursor
           </p>
           <p style={{ margin: '2px 0' }}>
             <strong>Soft Skills:</strong> Problem Solving, Clean Code, Teamwork, Continuous Learning, Time Management
@@ -152,8 +152,8 @@ function ResumeLayout() {
               <strong>RecruitIQ — AI Candidate Ranking System</strong>
               <span style={{ color: '#555', fontSize: '12px' }}>Python · sentence-transformers · pandas · scikit-learn · Streamlit</span>
             </div>
-            <a href="https://github.com/Yubarajsaha/redrob" target="_blank" style={{ color: '#ff6414', fontSize: '12px' }}>github.com/Yubarajsaha/redrob</a>
-            <ul style={{ margin: '4px 0', paddingLeft: '16px' }}>
+            <a href="https://github.com/Yubarajsaha/redrob" target="_blank" style={{ color: '#000000', fontSize: '12px' }}>Link</a>
+            <ul style={{ margin: '4px 0', paddingLeft: '16px',listStyleType: 'disc' }}>
               <li>Built 3-stage AI pipeline ranking 100,000 candidates to Top 100 shortlist in 5.8 seconds on CPU</li>
               <li>Implemented semantic matching using sentence-transformers to compare career stories with job description</li>
               <li>Detected 13,579 fake/honeypot profiles using 4-layer validation logic</li>
@@ -166,8 +166,8 @@ function ResumeLayout() {
               <strong>Personal Portfolio Website</strong>
               <span style={{ color: '#555', fontSize: '12px' }}>React · Vite · Tailwind CSS · Framer Motion · Vercel</span>
             </div>
-            <a href="https://yubaraj-portfolio.vercel.app" target="_blank" style={{ color: '#ff6414', fontSize: '12px' }}>yubaraj-portfolio.vercel.app</a>
-            <ul style={{ margin: '4px 0', paddingLeft: '16px' }}>
+            <a href="https://yubaraj-portfolio.vercel.app" target="_blank" style={{ color: '#000000', fontSize: '12px' }}>Link</a>
+            <ul style={{ margin: '4px 0', paddingLeft: '16px',listStyleType: 'disc' }}>
               <li>Built modern futuristic portfolio from scratch without any templates</li>
               <li>Implemented parallax scrolling background and glassmorphism UI design</li>
               <li>Deployed with auto CI/CD pipeline via GitHub and Vercel</li>
@@ -180,9 +180,12 @@ function ResumeLayout() {
           <h2 style={{ fontSize: '14px', fontWeight: 'bold', textTransform: 'uppercase', borderBottom: '1px solid #000', paddingBottom: '4px', marginBottom: '8px' }}>
             Achievements
           </h2>
-          <ul style={{ margin: 0, paddingLeft: '16px' }}>
+          <ul style={{ margin: 0, paddingLeft: '16px',listStyleType: 'disc', }}>
             <li>
-              <strong>Redrob Data & AI Challenge 2026</strong> — Built AI powered candidate matching software 
+              <strong>Redrob Data & AI Challenge 2026</strong> — Built AI powered candidate matching software.
+            </li>
+            <li>
+              Ranked among the Top 10% of the BCA graduating class.
             </li>
           </ul>
         </div>
