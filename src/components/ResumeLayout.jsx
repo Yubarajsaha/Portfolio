@@ -106,16 +106,16 @@ function ResumeLayout() {
           <div style={{ marginBottom: '10px' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
               <strong>Master of Computer Applications (MCA)</strong>
-              <span style={{ color: '#555' }}>2023 — Present</span>
+              <span style={{ color: '#555' }}>Jul 2026 — 2028</span>
             </div>
-            <div style={{ color: '#555', fontSize: '12px' }}>Your University Name</div>
+            <div style={{ color: '#555', fontSize: '12px' }}>Lovely Professional Univesity</div>
           </div>
           <div>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
               <strong>Bachelor of Computer Applications (BCA)</strong>
-              <span style={{ color: '#555' }}>2020 — 2023</span>
+              <span style={{ color: '#555' }}>Jul 2023 — Jun 2026</span>
             </div>
-            <div style={{ color: '#555', fontSize: '12px' }}>Your College Name</div>
+            <div style={{ color: '#555', fontSize: '12px' }}>Institute of engineering and management</div>
           </div>
         </div>
 
@@ -182,7 +182,7 @@ function ResumeLayout() {
           </h2>
           <ul style={{ margin: 0, paddingLeft: '16px' }}>
             <li>
-              <strong>Redrob Data & AI Challenge 2026</strong> — Built AI powered candidate matching software · Results Pending
+              <strong>Redrob Data & AI Challenge 2026</strong> — Built AI powered candidate matching software 
             </li>
           </ul>
         </div>
