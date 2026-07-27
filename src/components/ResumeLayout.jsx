@@ -72,9 +72,12 @@ function ResumeLayout() {
             Summary
           </h2>
           <p style={{ margin: 0, color: '#333' }}>
-            Motivated MCA Student and Aspiring Software Engineer with hands-on experience in
-            Java, React, and Python. Passionate about building scalable applications,
-            solving complex problems with clean code, and continuously learning new technologies.
+            MCA student and aspiring Software Development Engineer with a strong foundation in Java,
+            Data Structures & Algorithms, OOP, SQL, and backend development. Experienced in building
+            software applications using Java, React, Python,and MySQL, with exposure to AWS and cloud
+            technologies.Built an AI-powered candidate ranking solution capable of processing100,000+
+            profiles, demonstrating strong problem-solving and engineering skills. Seeking to contribute
+            to scalable, reliable, and customer-focused software solutions
           </p>
         </div>
 
