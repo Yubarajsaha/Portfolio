@@ -71,7 +71,7 @@ function About() {
             {skills.map((skill, index) => (
               <motion.span
                 key={skill}
-                className="px-4 py-1 border border-[#da500c] rounded-full text-[#ee6f1a] text-sm font-medium hover:bg-[#f4844d] hover:text-white transition-all duration-300 cursor-default"
+                className="px-4 py-1 border border-[#e7540b] rounded-full text-[#f36304] text-sm font-medium hover:bg-[#f4844d] hover:text-white transition-all duration-300 cursor-default"
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.3, delay: index * 0.1 }}

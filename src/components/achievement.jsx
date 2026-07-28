@@ -4,7 +4,6 @@ import { FiAward } from 'react-icons/fi'
 const achievements = [
   {
     event: 'Redrob Data & AI Challenge 2026',
-    position: 'Submitted',
     description: 'Built AI powered candidate matching software — RecruitIQ',
     date: 'May 2026',
   }
@@ -12,7 +11,7 @@ const achievements = [
 
 function Achievement() {
   return (
-    <section id="achievement" className="px-[8%] py-24 max-w-[1100px] mx-auto">
+    <section id="achievement" className="px-[8%] py-24 max-w-[1300px] mx-auto">
 
       <motion.div
         className="flex items-center gap-3 mb-2"
@@ -69,25 +68,10 @@ function Achievement() {
                 </div>
               </div>
               <div className="flex flex-wrap gap-4 items-center">
-                <div>
-                  <p className="text-[#666] text-xs uppercase tracking-wide mb-1">Position</p>
-                  <p className="text-white font-semibold">{item.position}</p>
-                </div>
+
                 <div>
                   <p className="text-[#666] text-xs uppercase tracking-wide mb-1">Date</p>
                   <p className="text-white font-semibold">{item.date}</p>
-                </div>
-                <div>
-                  <p className="text-[#666] text-xs uppercase tracking-wide mb-1">Status</p>
-                  <span
-                    className="inline-block px-3 py-1 rounded-full text-xs font-semibold"
-                    style={{
-                      background: 'rgba(255,100,20,0.15)',
-                      color: '#ff6414'
-                    }}
-                  >
-                    {item.status}
-                  </span>
                 </div>
               </div>
             </motion.div>
