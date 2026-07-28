@@ -15,7 +15,7 @@ function Navbar() {
     setMenuOpen(false)
   }
 
-  const links = ['#about', '#experience', '#education', '#projects', '#resume',]
+  const links = ['#about', '#experience', '#education','#achievement', '#projects', '#resume',]
 
   return (
     <nav className={`sticky top-0 z-50 flex items-center justify-between px-[8%] py-4 transition-all duration-300 ${scrolled ? 'glass border-b border-white/5' : ''}`}>

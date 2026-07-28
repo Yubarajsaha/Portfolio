@@ -7,7 +7,6 @@ const achievements = [
     position: 'Submitted',
     description: 'Built AI powered candidate matching software — RecruitIQ',
     date: 'May 2026',
-    status: 'Results Pending'
   }
 ]
 
