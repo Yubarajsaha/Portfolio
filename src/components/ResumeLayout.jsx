@@ -12,7 +12,7 @@ function ResumeLayout() {
       image: { type: 'jpeg', quality: 0.98 },
       html2canvas: { scale: 2, useCORS: true },
       jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
-      enableLinks: true  // ← this makes links clickable in PDF!
+      enableLinks: true
     }
     html2pdf().set(opt).from(element).save()
   }
@@ -60,7 +60,7 @@ function ResumeLayout() {
             Yubaraj Saha
           </h1>
           <p style={{ color: '#555', margin: '0 0 6px 0', fontSize: '13px' }}>
-            Software Engineer
+            
           </p>
           <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', fontSize: '12px' }}>
             <a href="mailto:yubarajsaha025@gmail.com" style={{ color: '#000000' }}>yubarajsaha025@gmail.com</a>
@@ -104,7 +104,7 @@ function ResumeLayout() {
             <ul style={{ margin: '4px 0', paddingLeft: '16px',listStyleType: 'disc', }}>
               <li>Digital Presence Optimization.</li>
               <li>Customer Engagement Solutions.</li>
-              <li>Develelop GST billig pages.</li>
+              <li>Develop GST billing pages.</li>
               <li>User-Centric UI Design.</li>
             </ul>
           </div>
@@ -120,7 +120,7 @@ function ResumeLayout() {
               <strong>Master of Computer Applications (MCA)</strong>
               <span style={{ color: '#555' }}>Jul 2026 — 2028</span>
             </div>
-            <div style={{ color: '#555', fontSize: '12px' }}>Lovely Professional Univesity</div>
+            <div style={{ color: '#555', fontSize: '12px' }}>Lovely Professional University</div>
           </div>
           <div>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
@@ -140,10 +140,10 @@ function ResumeLayout() {
             <strong>Languages:</strong> Java, Python, SQL, HTML & CSS
           </p>
           <p style={{ margin: '2px 0' }}>
-            <strong>Technologies:</strong> React, Tailwind CSS, Framer Motion, Streamlit
+            <strong>Framework:</strong> React, Tailwind CSS, Framer Motion, Streamlit
           </p>
           <p style={{ margin: '2px 0' }}>
-            <strong>Tools:</strong> Git, GitHub, VS Code, MS office 
+            <strong>Tools:</strong> Git, GitHub, VS Code, MS office, linux
           </p>
           <p style={{ margin: '2px 0' }}>
             <strong>AI Tools:</strong> Claude, Cursor
