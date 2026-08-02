@@ -117,10 +117,10 @@ function ResumeLayout() {
           </h2>
           <div style={{ marginBottom: '10px' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-              <strong>Master of Computer Applications (MCA)</strong>
-              <span style={{ color: '#555' }}>Jul 2026 — 2028</span>
+              <strong></strong>
+              <span style={{ color: '#555' }}></span>
             </div>
-            <div style={{ color: '#555', fontSize: '12px' }}>Lovely Professional University</div>
+            <div style={{ color: '#555', fontSize: '12px' }}></div>
           </div>
           <div>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
