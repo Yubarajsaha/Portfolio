@@ -45,14 +45,14 @@ function Navbar() {
 
       {/* CONTACT BUTTON */}
       <button
-        onClick={() => scrollTo('#Let’s Connect')}
+        onClick={() => scrollTo('#Lets Connect')}
         className="hidden md:flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold text-white transition-all duration-300 hover:scale-105"
         style={{
           background: 'linear-gradient(135deg, #ff6414, #ff8c42)',
           boxShadow: '0 0 20px rgba(255,100,20,0.3)'
         }}
       >
-        Let’s Connect
+        Lets Connect
       </button>
 
       {/* HAMBURGER */}
