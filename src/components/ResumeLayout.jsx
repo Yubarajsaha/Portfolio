@@ -117,15 +117,15 @@ function ResumeLayout() {
           </h2>
           <div style={{ marginBottom: '10px' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-              <strong></strong>
-              <span style={{ color: '#555' }}></span>
+              <strong>Masters of Computer Application (MCA)</strong>
+              <span style={{ color: '#555' }}>Aug 2026 - Jun 2028</span>
             </div>
-            <div style={{ color: '#555', fontSize: '12px' }}></div>
+            <div style={{ color: '#555', fontSize: '12px' }}>Lovely Professional University</div>
           </div>
           <div>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
               <strong>Bachelor of Computer Applications (BCA)</strong>
-              <span style={{ color: '#555' }}>Jul 2023 — Jun 2026</span>
+              <span style={{ color: '#555' }}>Jul 2023 - Jun 2026</span>
             </div>
             <div style={{ color: '#555', fontSize: '12px' }}>Institute of engineering and management | 8.15 CGPA</div>
           </div>
