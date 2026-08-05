@@ -146,7 +146,7 @@ function ResumeLayout() {
             <strong>Tools:</strong> Git, GitHub, VS Code, MS office, linux
           </p>
           <p style={{ margin: '2px 0' }}>
-            <strong>AI Tools:</strong> Claude, Cursor
+            <strong>AI Tools:</strong> Claude, Chatgpt
           </p>
           <p style={{ margin: '2px 0' }}>
             <strong>Soft Skills:</strong> Problem Solving, Clean Code, Teamwork, Continuous Learning, Time Management
