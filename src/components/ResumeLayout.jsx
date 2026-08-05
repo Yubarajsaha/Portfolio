@@ -63,13 +63,13 @@ function ResumeLayout() {
             
           </p>
           <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', fontSize: '12px' }}>
-            <a href="mailto:yubarajsaha025@gmail.com" style={{ color: '#000000' }}>yubarajsaha025@gmail.com</a>
+            <a href="mailto:yubarajsaha025@gmail.com" style={{ color: '#2563EB' }}>yubarajsaha025@gmail.com</a>
             <span>·</span>
-            <a href="https://www.linkedin.com/in/yubaraj-saha-488883285/" target="_blank" style={{ color: '#000000' }}>LinkedIn</a>
+            <a href="https://www.linkedin.com/in/yubaraj-saha-488883285/" target="_blank" style={{ color: '#2563EB' }}>LinkedIn</a>
             <span>·</span>
-            <a href="https://github.com/Yubarajsaha" target="_blank" style={{ color: '#000000' }}>GitHub</a>
+            <a href="https://github.com/Yubarajsaha" target="_blank" style={{ color: '#2563EB' }}>GitHub</a>
             <span>·</span>
-            <a href="https://yubaraj-portfolio.vercel.app/" target="_blank" style={{ color: '#000000' }}>Portfolio</a>
+            <a href="https://yubaraj-portfolio.vercel.app/" target="_blank" style={{ color: '#2563EB' }}>Portfolio</a>
           </div>
         </div>
 
@@ -164,7 +164,7 @@ function ResumeLayout() {
               <strong>RecruitIQ — AI Candidate Ranking System</strong>
               <span style={{ color: '#555', fontSize: '12px' }}>Python · sentence-transformers · pandas · scikit-learn · Streamlit</span>
             </div>
-            <a href="https://github.com/Yubarajsaha/redrob" target="_blank" style={{ color: '#000000', fontSize: '12px' }}>Link</a>
+            <a href="https://github.com/Yubarajsaha/redrob" target="_blank" style={{ color: '#2563EB', fontSize: '12px' }}>Link</a>
             <ul style={{ margin: '4px 0', paddingLeft: '16px',listStyleType: 'disc' }}>
               <li>Built 3-stage AI pipeline ranking 100,000 candidates to Top 100 shortlist in 5.8 seconds on CPU</li>
               <li>Implemented semantic matching using sentence-transformers to compare career stories with job description</li>
@@ -178,7 +178,7 @@ function ResumeLayout() {
               <strong>Personal Portfolio Website</strong>
               <span style={{ color: '#555', fontSize: '12px' }}>React · Vite · Tailwind CSS · Framer Motion · Vercel</span>
             </div>
-            <a href="https://yubaraj-portfolio.vercel.app" target="_blank" style={{ color: '#000000', fontSize: '12px' }}>Link</a>
+            <a href="https://yubaraj-portfolio.vercel.app" target="_blank" style={{ color: '#2563EB', fontSize: '12px' }}>Link</a>
             <ul style={{ margin: '4px 0', paddingLeft: '16px',listStyleType: 'disc' }}>
               <li>Built modern futuristic portfolio from scratch without any templates</li>
               <li>Implemented parallax scrolling background and glassmorphism UI design</li>
